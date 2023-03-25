@@ -1,0 +1,69 @@
+<!-- HEADER -->
+<%- include('header_unsign'); %>
+<!-- END HEADER -->
+
+<!-- BODY -->
+<div id="main_login">
+    <div class="t1">Welcome to DEV Community</div>
+    <div class="t2"><p>DEV Community is a community of 1,024,577 amazing developers</p></div>
+    <div><hr style="width: 80%; margin: auto; border-top: 1px solid; margin-bottom: 10px;"></div>
+    <div class="form_login">
+        <div class="form-group">
+            <!-- attributes for, name -->
+            <label for="account" style="font-weight: bold">Account</label>  
+            <input name="account" type="text" class="form-control" id="" placeholder="" value="">
+        </div>
+        <div class="form-group">
+            <label for="password" style="font-weight: bold">Password</label>
+            <input name="password" type="password" class="form-control" id="" aria-describedby="" placeholder="" value="">
+        </div>
+        <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck">
+            <label class="form-check-label" for="dropdownCheck">
+              Remember me
+            </label>
+        </div>
+        <button type="button" class="btn btn-primary btn-lg btn-block" style="margin-top: 20px;">Sign in</button>
+    </div>
+</div>
+<!-- END BODY -->
+
+<!-- FOOTER -->
+<%- include('footer'); %>
+<!-- END FOOTER -->
+
+
+<style>
+    #main_login {
+        margin: auto;
+        margin-top: 8%;
+        margin-bottom: 35px;
+        width: 50%;
+        height: 70%;
+        background-color: rgb(240, 240, 240);
+        border-radius: 5px;
+    }
+    .form_login {
+        width: 80%;
+        margin: auto;
+    }
+    .t1 {
+        font-weight: bold;
+        font-size: 30;
+        text-align: center;
+        margin: 0 0 2px 0;
+        padding-top: 20px;
+    }
+    .t2 {
+        text-align: center;
+    }
+</style>
+
+<!-- Link css, font-icon, bootstrap -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+<link rel="stylesheet" href="./css/header.css">
+<link rel="stylesheet" href="./css/footer.css">

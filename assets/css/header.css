@@ -1,0 +1,58 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+  align-items: center;
+  height: 60px;
+  background-color: rgb(240, 240, 240);
+  top: 0px;
+  position: fixed;
+  z-index: 999;
+}
+
+.login-header-btn {
+  margin-left: 53%;
+}
+
+.create-header-btn {
+  margin-left: 1%;
+}
+
+
+.create-btn {
+  margin-left: auto;
+}
+
+.logo img {
+  cursor: pointer;
+  max-width: 80px;
+  max-height: 40px;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+
+/* header unsign css */
+.noti-icon {
+  display: flex;
+  font-size: 22px;
+  padding: 8px 9px 8px 9px;
+  cursor: pointer;
+  margin-left: 20px;
+  border-radius: 50%;
+}
+.noti-icon:hover, .avatar-icon:hover {
+  background-color: rgb(209, 209, 209);
+}
+.avatar-icon {
+  font-size: 30px;
+  cursor: pointer;
+  margin: 0 20px 0 10px;
+  padding: 5px;
+  border-radius: 50%;
+}
